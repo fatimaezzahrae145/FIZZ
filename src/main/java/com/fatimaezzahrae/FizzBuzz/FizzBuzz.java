@@ -2,7 +2,5 @@ package com.fatimaezzahrae.FizzBuzz;
 
 public class FizzBuzz {
     public static String de(int n){
-        return "1" ;
-    }
-
-}
+        if ( n > 1 ) return "2" ;
+        return "1" ;}}

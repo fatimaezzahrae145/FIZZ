@@ -6,4 +6,8 @@ public class FizzBuzzTest {
     public void FizzBuzz_de_1_doit_retourner_1(){
         assertEquals("1",FizzBuzz.de(1));
     }
+    @Test
+    public void FizzBuzz_de_2_doit_retourner_2(){
+        assertEquals("2",FizzBuzz.de(2));
+    }
 }
