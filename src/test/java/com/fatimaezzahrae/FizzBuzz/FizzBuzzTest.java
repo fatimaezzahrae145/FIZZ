@@ -22,4 +22,12 @@ public class FizzBuzzTest {
     public void FizzBuzz_de_5_doit_retourner_Buzz(){
         assertEquals("Buzz",FizzBuzz.de(5));
     }
+    @Test
+    public void FizzBuzz_de_6_doit_retourner_Fizz(){
+        assertEquals("Fizz",FizzBuzz.de(6));
+    }
+    @Test
+    public void FizzBuzz_de_15_doit_retourner_FizzBuzz(){
+        assertEquals("FizzBuzz",FizzBuzz.de(15));
+    }
 }
