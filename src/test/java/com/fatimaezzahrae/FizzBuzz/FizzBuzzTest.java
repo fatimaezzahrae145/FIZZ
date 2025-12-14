@@ -18,4 +18,8 @@ public class FizzBuzzTest {
     public void FizzBuzz_de_4_doit_retourner_4(){
         assertEquals("4",FizzBuzz.de(4));
     }
+    @Test
+    public void FizzBuzz_de_5_doit_retourner_Buzz(){
+        assertEquals("Buzz",FizzBuzz.de(5));
+    }
 }
